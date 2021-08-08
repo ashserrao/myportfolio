@@ -5,6 +5,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+html {
+    scroll-behavior: smooth;
+}
 /* home section styling */
 .home{
     display: flex;
@@ -346,9 +349,6 @@ section {
     background: #fff;
     transform: translateX(-50%);
 }
-.teams .bgcc{
-    background-color: #FF4848;
-}
 
 
 /* Float four columns side by side */
@@ -385,6 +385,19 @@ section {
     border-radius: 50%;
     border: 5px solid crimson; 
   }
+  .row1 {
+    margin: 0 -5px;
+  }
+  .row1::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row1 .column1 {
+    padding: 16px;
+    text-align: center;
+    background-color: none;
+  }
   /* Responsive columns - one column layout (vertical) on small screens */
   @media screen and (max-width: 600px) {
     .column {
@@ -393,6 +406,8 @@ section {
       margin-bottom: 20px;
     }
   }
+
+ 
 /* responsive media query start */
 @media (max-width: 1500px){
     .home .max-width{
@@ -481,5 +496,19 @@ section {
     margin: 0px; 
     padding: 0px;
     height: 50px;
+
+}
+.foot .social-links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 45%;
+    
+}
+.foot .fab {
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+
+
 }
 /*-------------------------------------------------------- footer-responsive -------------------------------------------------------------*/
