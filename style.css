@@ -259,7 +259,46 @@ section {
     margin-bottom: 10px;
 }
 .skills .column-right {
-    padding-top: 20px;
+    width: 70%;
+    padding-top: 30px;
+    margin-left: 40px;
+}
+.skills .column-right .bars {
+    margin-bottom: 10px;
+}
+.skills .column-right .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .column-right span {
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content .column-right .line {
+    height: 5px;
+    width: 100%;
+    background-color: gray;
+    position: relative;
+
+}
+.skills .skills-content .column-right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: crimson;
+}
+.skills .skills-content .column-right .html::before {
+    width: 90%;
+}
+.skills .skills-content .column-right .css::before {
+    width: 60%;
+}.skills .skills-content .column-right .js::before {
+    width: 50%;
+}.skills .skills-content .column-right .python::before {
+    width: 60%;
 }
 
 /* responsive media query start */
