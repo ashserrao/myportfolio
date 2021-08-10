@@ -505,18 +505,30 @@ section {
     padding-top: 20px;
 }
 .container .social-links {
-    margin-left: 40%;
+    margin-left: 43%;
     margin-top: 10px;
     
     
 }
 .container .social-links a {
-    padding: 20px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 2px solid #FF2626;
+    color: #FF2626;
+    transition: all 0.5s ease;
+    padding-bottom: 40px;
+    margin-bottom: auto;
 
 }
-.container .fab {
-    height: 10px;
-    width: 10px;
+.container .social-links a:hover {
+    color: #ffffff;
+    background-color: #FF2626;
 }
 /*-------------------------------------------------------- footer-responsive -------------------------------------------------------------*/
 @media (max-width: 700px){
