@@ -355,8 +355,9 @@ section {
 .home{
     display: flex;
     background: url("images/trail wall flex 2.jpg") no-repeat center;
+    background-color: #000000;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     margin: 0;
     padding: 0;
     color: aliceblue;
@@ -499,19 +500,21 @@ section {
 
 }
 .foot .container {
-    background-color: #FFE6E6; 
+    background-color: #FFE6E6;
+    height: 50px;
 }
 .foot .social-links {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 45%;
+    margin-left: 40%;
+    margin-top: 10px;
+    
     
 }
-
+.foot .social-links a {
+    padding: 20px;
+}
 .foot .fab {
-    height: 20px;
-    width: 20px;
-    padding: 10px;
+    height: 10px;
+    width: 10px;
 
 
 }
