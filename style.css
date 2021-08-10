@@ -8,118 +8,6 @@
 html {
     scroll-behavior: smooth;
 }
-/* home section styling */
-.home{
-    display: flex;
-    background: url("images/trail wall flex 2.jpg") no-repeat center;
-    width: 100;
-    height: 100vh;
-    color: aliceblue;
-    min-height: 500px;
-    font-family: 'Ubuntu', sans-serif;
-}
-.home .max-width{
-    margin: auto 0 auto 40px;
-}
-.home .home-content .text-1{
-    font-size: 27px;
-}
-.home .home-content .text-2{
-    font-size: 75px;
-    font-weight: 600;
-    margin-left: -3px;
-}
-.home .home-content .text-3{
-    font-size: 40px;
-    margin: 5px 0;
-}
-.home .home-content .text-3 span{
-    color: crimson;
-    font-weight: 500;
-}
-.home .home-content a{
-    display: inline-block;
-    background: crimson;
-    color: #fff;
-    font-size: 25px;
-    padding: 12px 36px;
-    margin-top: 20px;
-    font-weight: 400;
-    border-radius: 6px;
-    border: 2px solid crimson;
-    transition: all 0.3s ease;
-}
-.home .home-content a:hover{
-    color: crimson;
-    background: none;
-}
-
-/* navbar styling */
-.max-width{
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
-}
-.navbar{
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    padding: 30px 0;
-    font-family: 'Ubuntu', sans-serif;
-    transition: all 0.3s ease;
-}
-.navbar.sticky{
-    padding: 15px 0;
-    background-color: crimson;
-}
-.navbar .max-width{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.navbar .logo a{
-    color: crimson;
-    font-size: 35px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-}
-.navbar.sticky .logo a{
-    color: aliceblue;
-}
-.navbar .logo a span{
-    color: orangered;
-    transition: all 0.3s ease;
-}
-.navbar.sticky .logo a span{
-    color: whitesmoke;
-}
-.navbar .menu li{
-    list-style: none;
-    display: inline-block;
-}
-.navbar .menu li a{
-    color: crimson;
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 25px;
-    transition: color 0.3s ease;
-}
-.navbar.sticky .menu li a{
-    color: aliceblue;
-}
-.navbar .menu li a:hover{
-    color: orangered;
-
-}
-/* menu btn styling */
-.navbar .menu-btn{
-    color: crimson;
-    font-size: 23px;
-    cursor: pointer;
-}
-.navbar.sticky .menu-btn{
-    color: aliceblue;
-}
 
 
 
@@ -406,7 +294,121 @@ section {
       margin-bottom: 20px;
     }
   }
+/* navbar styling */
+.max-width{
+    max-width: 1600px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background-color: crimson;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: crimson;
+    font-size: 35px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a{
+    color: aliceblue;
+}
+.navbar .logo a span{
+    color: orangered;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+    color: whitesmoke;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: crimson;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar.sticky .menu li a{
+    color: aliceblue;
+}
+.navbar .menu li a:hover{
+    color: orangered;
 
+}
+/* home section styling */
+.home{
+    display: flex;
+    background: url("images/trail wall flex 2.jpg") no-repeat center;
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+.home .home-content a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: crimson;
+    background: none;
+}
+
+
+/* menu btn styling */
+.navbar .menu-btn{
+    color: crimson;
+    font-size: 23px;
+    cursor: pointer;
+}
+.navbar.sticky .menu-btn{
+    color: aliceblue;
+}
  
 /* responsive media query start */
 @media (max-width: 1500px){
@@ -482,8 +484,6 @@ section {
         font-size: 27px;
     }
 }
-
-
 
 
 
