@@ -499,23 +499,31 @@ section {
     height: 50px;
 
 }
-.foot .container {
+.container {
     background-color: #FFE6E6;
     height: 50px;
+    padding-top: 20px;
 }
-.foot .social-links {
+.container .social-links {
     margin-left: 40%;
     margin-top: 10px;
     
     
 }
-.foot .social-links a {
+.container .social-links a {
     padding: 20px;
+
 }
-.foot .fab {
+.container .fab {
     height: 10px;
     width: 10px;
-
-
 }
 /*-------------------------------------------------------- footer-responsive -------------------------------------------------------------*/
+@media (max-width: 700px){
+
+    .container .social-links {
+        margin-left: 25%;
+        margin-top: 10px;
+   
+    }
+}
