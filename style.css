@@ -46,7 +46,7 @@ section {
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color: #6e0c0e;
 }
 .about .about-content .right p{
     text-align: justify;
@@ -54,18 +54,18 @@ section {
     padding-bottom: 20px;
 }
 .about .about-content .right a{
-    background: crimson;
+    background: #6e0c0e;
     color: #fff;
     font-size: 25px;
     padding: 5px 15px;
     margin-top: 30px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #6e0c0e;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
+    color: #6e0c0e;
     background: none;
 }
 .about .title {
@@ -93,7 +93,7 @@ section {
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #6e0c0e;
     padding: 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -136,7 +136,7 @@ section {
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #6e0c0e;
     padding: 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -179,7 +179,7 @@ section {
     height: 100%;
     left: 0;
     top: 0;
-    background-color: crimson;
+    background-color: #6e0c0e;
 }
 .skills .skills-content .column-right .html::before {
     width: 90%;
@@ -192,18 +192,18 @@ section {
     width: 60%;
 }
 .skills .column-left a {
-    background: crimson;
+    background: #6e0c0e;
     color: #fff;
     font-size: 25px;
     padding: 5px 15px;
     margin-top: 30px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #6e0c0e;
     transition: all 0.3s ease;
 }
 .skills .column-left a:hover {
-    color: crimson;
+    color: #6e0c0e;
     background: none;
 }
  /* my teams */
@@ -232,7 +232,7 @@ section {
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #6e0c0e;
     padding: 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -271,7 +271,7 @@ section {
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson; 
+    border: 5px solid #6e0c0e; 
   }
   .row1 {
     margin: 0 -5px;
@@ -310,7 +310,7 @@ section {
 }
 .navbar.sticky{
     padding: 15px 0;
-    background-color: crimson;
+    background-color: #6e0c0e;
 }
 .navbar .max-width{
     display: flex;
@@ -318,7 +318,7 @@ section {
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: crimson;
+    color: #6e0c0e;
     font-size: 35px;
     font-weight: 600;
     transition: all 0.3s ease;
@@ -327,7 +327,7 @@ section {
     color: aliceblue;
 }
 .navbar .logo a span{
-    color: orangered;
+    color: #00f7ee;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -338,7 +338,7 @@ section {
     display: inline-block;
 }
 .navbar .menu li a{
-    color: crimson;
+    color: #6e0c0e;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -348,7 +348,7 @@ section {
     color: aliceblue;
 }
 .navbar .menu li a:hover{
-    color: orangered;
+    color: #00f7ee;
 
 }
 /* home section styling */
@@ -380,30 +380,30 @@ section {
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: #6e0c0e;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: #6e0c0e;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #6e0c0e;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: #6e0c0e;
     background: none;
 }
 
 
 /* menu btn styling */
 .navbar .menu-btn{
-    color: crimson;
+    color: #6e0c0e;
     font-size: 23px;
     cursor: pointer;
 }
