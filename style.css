@@ -227,7 +227,7 @@ section {
     transform: translateX(-50%);
 }
 .teams .title::after {
-    content: "whose with me";
+    content: "my work";
     position: absolute;
     bottom: -12px;
     left: 50%;
