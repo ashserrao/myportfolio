@@ -182,7 +182,7 @@ section {
     background-color: #6e0c0e;
 }
 .skills .skills-content .column-right .html::before {
-    width: 90%;
+    width: 85%;
 }
 .skills .skills-content .column-right .css::before {
     width: 60%;
