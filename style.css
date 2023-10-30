@@ -181,15 +181,15 @@ section {
     top: 0;
     background-color: #6e0c0e;
 }
-.skills .skills-content .column-right .html::before {
-    width: 85%;
+.skills .skills-content .column-right .beginner::before {
+    width: 25%;
 }
-.skills .skills-content .column-right .css::before {
-    width: 60%;
-}.skills .skills-content .column-right .js::before {
+.skills .skills-content .column-right .experienced::before {
     width: 50%;
-}.skills .skills-content .column-right .python::before {
-    width: 60%;
+}.skills .skills-content .column-right .advanced::before {
+    width: 75%;
+}.skills .skills-content .column-right .guru::before {
+    width: 100%;
 }
 .skills .column-left a {
     background: #6e0c0e;
@@ -238,6 +238,21 @@ section {
     transform: translateX(-50%);
 }
 
+.teams .max-width a {
+    background: #6e0c0e;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px 15px;
+    margin-top: 30px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #6e0c0e;
+    transition: all 0.3s ease;
+}
+.teams .max-width a:hover {
+    color: #6e0c0e;
+    background: none;
+}
 
 /* Float four columns side by side */
 .column {
@@ -248,7 +263,7 @@ section {
   
   /* Remove extra left and right margins, due to padding in columns */
   .row {
-      margin: 0 -5px;
+      margin: 0 -5px 25px 0;
       background-color: #FF4848;
     }
   
